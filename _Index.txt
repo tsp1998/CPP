@@ -1,0 +1,147 @@
+Programs by TSP 
+1.show the output
+2.program to add two numbers
+3.Area, circumference of circle
+4.marks AND percentage
+5.volume of  cube
+6.Area,  perimeter of  square
+7.Average of numbers
+8.Find interest
+9.Swapping of two numbers using third variable
+10.largest Number
+11.   $
+       $$$
+     $$$$$
+   $$$$$$$
+ $$$$$$$$$
+12.smallest number
+13.smallest & largest number
+14.size of variables & data types
+15.Check number is positive, negative, even, odd & character is vowel or consonant
+16.Calculator
+17. Check Rank
+18.powers of number
+19.series
+20.Records using structure-useful for college
+21.Calculator
+22.matrix arithmetic
+23.series factorial of numbers
+24.strings concat
+25.diamond
+26.sample program functions
+27.arithmetic operation using class member function
+28.arithmetic operation of infinite numbers using class member function
+29.Records using structure
+30.Records using structure
+31.find factors of number
+32.College Classes
+33.Colorful text
+34.prime number check
+35.
+36.
+37.
+38.
+39.
+40.
+41.
+42.
+43.
+44.
+45.
+46.
+47.
+48.
+49.
+50.
+51.
+52.
+53.
+54.
+55.
+56.
+57.
+58.
+59.
+60.
+61.
+62.
+63.
+64.
+65.
+66.
+67.
+68.
+69.
+70.
+71.
+72.
+73.
+74.
+75.
+76.
+77.
+78.
+79.
+80.
+81.
+82.
+83.
+84.
+85.
+86.
+87.
+88.
+89.
+90.
+91.
+92.
+93.
+94.
+95.
+96.
+97.
+98.
+99.
+100.
+101.
+102.
+103.
+104.
+105.
+106.
+107.
+108.
+109.
+110.
+111.
+112.
+113.
+114.
+115.
+116.
+117.
+118.
+119.
+120.
+121.
+122.
+123.
+124.
+125.
+126.
+127.
+128.
+129.
+130.
+
+note**:
+1. Switch  statement program also called menu driven program
+2. call by value means parameters should passed (declared) in function bracket
+3.call by address/reference means pointers(parameters with star symbol prefix i.e. void ts(int *s)) should passed (declared) in function bracket
+4.ASCII-american standard code information interchange
+
+
+Graphics index
+Ortho 82
+Plane 163
+Class Ortho 243
