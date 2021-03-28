@@ -5,16 +5,18 @@ Programmer
 SKNSCOE,Korti
 Email-tsp@outlook.in
 */
-#include<iostream>
+#include <iostream>
 using namespace std;
-public class s
+public
+class s
 {
 	s1()
 	{
-		cout<<"hello"<<"this is Java programming"<<endl;
-}
-int main()
-{
-s o;
-	o.s1();
-}
+		cout << "hello"
+				 << "this is Java programming" << endl;
+	}
+	int main()
+	{
+		s o;
+		o.s1();
+	}

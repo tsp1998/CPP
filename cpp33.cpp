@@ -9,14 +9,14 @@ Email-tsp@outlook.in
 #include <string.h>
 #include <conio.h>
 //using namespace std;
-int i,count=0;
+int i, count = 0;
 
 int main()
 {
-clrscr();
-textbkcolor(11);
-textcolor(14);
-cout<<"Shubham";
-getch();
-return 0;
+  clrscr();
+  textbkcolor(11);
+  textcolor(14);
+  cout << "Shubham";
+  getch();
+  return 0;
 }

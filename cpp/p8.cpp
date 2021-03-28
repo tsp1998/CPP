@@ -1,16 +1,15 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 void main()
 {
 
-swap(&m,&n);
+  swap(&m, &n);
 }
-void swap(int *a,int *b)
+void swap(int *a, int *b)
 {
-int temp;
-temp=*a;
-*a=*b;
-*b=temp;
-
+  int temp;
+  temp = *a;
+  *a = *b;
+  *b = temp;
 }

@@ -10,11 +10,11 @@ Email-tsp@outlook.in
 using namespace std;
 int main()
 {
- float s, oprn;
- cout<<"  enter the side of square";
-cin>>s;
-oprn=4*s;
- cout<<" perimeter of square="<<oprn<<endl;
-oprn=s*s;
- cout<<"  area of square="<<oprn<<endl;
+  float s, oprn;
+  cout << "  enter the side of square";
+  cin >> s;
+  oprn = 4 * s;
+  cout << " perimeter of square=" << oprn << endl;
+  oprn = s * s;
+  cout << "  area of square=" << oprn << endl;
 }

@@ -9,53 +9,52 @@ Email-tsp@outlook.in
 using namespace std;
 void num()
 {
- int no;
-      cout<<"enter your number: ";
-      cin>>no;
-      if (no>0)
+      int no;
+      cout << "enter your number: ";
+      cin >> no;
+      if (no > 0)
       {
-      	cout<<"Number is positive: ";
+            cout << "Number is positive: ";
       }
-       else
+      else
       {
-      	cout<<"\nNumber is negative: ";
+            cout << "\nNumber is negative: ";
       }
-        if (no%2==0)
+      if (no % 2 == 0)
       {
-      	cout<<"\nNumber is even: ";
+            cout << "\nNumber is even: ";
       }
-      if (no%2!=0)
+      if (no % 2 != 0)
       {
-      	cout<<"\nNumber is odd: ";
+            cout << "\nNumber is odd: ";
       }
 }
 void ch()
 {
- char c;
-      cout<<"enter your Character: ";
-      cin>>c;
-      if (c=='a'||c=='e'||c=='i'||c=='o'||c=='u'||c=='A'||c=='E'||c=='I'||c=='O'||c=='U')
+      char c;
+      cout << "enter your Character: ";
+      cin >> c;
+      if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' || c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U')
       {
-      	cout<<"Character is Vowel: ";
+            cout << "Character is Vowel: ";
       }
-       else
+      else
       {
-      	cout<<"Character is Consonant: ";
+            cout << "Character is Consonant: ";
       }
 }
 void main()
 {
-	 int no;
-	 cout<<"1.Check Number \n2. Check Character: ";
-      cout<<"\nenter your choice: ";
-      cin>>no;
-       if (no==1)
+      int no;
+      cout << "1.Check Number \n2. Check Character: ";
+      cout << "\nenter your choice: ";
+      cin >> no;
+      if (no == 1)
       {
-       num();
+            num();
       }
-       else
+      else
       {
-      	ch();
+            ch();
       }
-
 }

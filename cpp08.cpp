@@ -10,13 +10,13 @@ Email-tsp@outlook.in
 using namespace std;
 int main()
 {
- float p,r,t,i;
- cout<<"enter principal";
-cin>>p;
-cout<<"enter  rate";
-cin>>r;
-cout<<"enter  time";
-cin>>t;
-i=p*r*t/100;
-cout<<" interest is="<<i;
+  float p, r, t, i;
+  cout << "enter principal";
+  cin >> p;
+  cout << "enter  rate";
+  cin >> r;
+  cout << "enter  time";
+  cin >> t;
+  i = p * r * t / 100;
+  cout << " interest is=" << i;
 }

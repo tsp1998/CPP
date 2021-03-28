@@ -4,43 +4,51 @@ SAGAR PANDHARE.
 ROLL NO:50
 SKNSCOE,Korti.
 */
-#include<iostream>
-#include<stdio.h>
-#include<stdlib.h>
+#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
 using namespace std;
-class number {
+class number
+{
 private:
-int x,y,z;
-public:
-   void getVal(int a,int b,int c){
-      x=a;y=b;z=c;
-}
+      int x, y, z;
 
-int display(){
-cout<<"X:" <<x<<endl;
-cout<<"Y:" <<y<<endl;
-cout<<"Z:" <<z<<endl;
-return 0;
-}
-  void operator-();
+public:
+      void getVal(int a, int b, int c)
+      {
+            x = a;
+            y = b;
+            z = c;
+      }
+
+      int display()
+      {
+            cout << "X:" << x << endl;
+            cout << "Y:" << y << endl;
+            cout << "Z:" << z << endl;
+            return 0;
+      }
+      void operator-();
 };
 
-   void number::operator-(){
-      x=-x;y=-y;z=-z;
+void number::operator-()
+{
+      x = -x;
+      y = -y;
+      z = -z;
 }
-
 
 int main()
 {
-    number n1;
-   //m1.arithmetic();
-     n1.getVal(10,20,-30);
-     cout<<"Before Operator Overloading"<<endl;
+      number n1;
+      //m1.arithmetic();
+      n1.getVal(10, 20, -30);
+      cout << "Before Operator Overloading" << endl;
       n1.display();
--n1;
-     cout<<"After Operator Overloading"<<endl;
+      -n1;
+      cout << "After Operator Overloading" << endl;
       n1.display();
-return 0;
+      return 0;
 }
 
 /// Output:
